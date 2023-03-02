@@ -1,16 +1,28 @@
-# pomodoro_clock
+# Pomodoro Clock Flutter
+This is a Pomodoro Clock app built using Flutter. The app allows users to focus on a task for 25 minutes followed by a 5-minute break. The user can repeat this cycle as many times as needed.
 
-A new Flutter project.
+##  Features
+- Countdown timer for 25-minute work sessions and 5-minute breaks
+- Play, stop, and reset buttons to control the timer
+- Appropriate status message indicating whether the user is currently in a work session or a break
 
 ## Getting Started
+To run this project, you will need to have Flutter installed. You can install Flutter by following the instructions in the official Flutter documentation.
 
-This project is a starting point for a Flutter application.
+Once you have Flutter installed, you can clone this repository by running the following command in your terminal:
 
-A few resources to get you started if this is your first Flutter project:
+```dart
+git clone https://github.com/yourusername/pomodoro_clock_flutter.git
+```
+After cloning the repository, navigate to the project directory and run the following command to install the required dependencies:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```dart
+flutter pub get
+```
+Finally, run the app using the following command:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```dart
+flutter run
+```
+# Contributing
+If you find any bugs or issues with the app, please feel free to open an issue or submit a pull request. Any contributions are welcome!
